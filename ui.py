@@ -60,8 +60,11 @@ def print_menu(title, list_options, exit_message):
     Returns:
         None: This function doesn't return anything it only prints to console.
     """
-
     # your code
+
+    print(title)
+    print(list_options)
+    print(exit_message)
 
 
 def get_inputs(list_labels, title):
