@@ -27,7 +27,7 @@ def start_module():
     Returns:
         None
     """
-
+    print("valami")
     # your code
 
 
