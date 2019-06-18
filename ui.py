@@ -61,7 +61,10 @@ def print_menu(title, list_options, exit_message):
         None: This function doesn't return anything it only prints to console.
     """
 
-    # your code
+    print(title + ":")
+    for number, unit in enumerate(list_options):
+        print("\t"+"(" + str(number+1) + ")", unit)
+    print("\t"+"(0)", exit_message)
 
 
 def get_inputs(list_labels, title):
